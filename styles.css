@@ -1,0 +1,108 @@
+
+/*fond body*/
+.body{
+    background-color:#F2F2F2 ;
+}
+
+
+/*logo*/
+.logop{
+    height: 100px;
+    width: 100px;
+   background-color: aqua;
+   
+}
+
+/*titre*/
+.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*barre menu*/
+
+.onglet{
+    width: 300px;
+    height: 50px;
+    float: right;
+    background-color: teal;
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.button{
+float: left;
+margin: 10px;
+color: #0065FC;
+font-family: 'Raleway', sans-serif;
+}
+/*barre recherche*/
+
+.barre{
+    background-color: brown;
+}
+
+#search{
+    width:250px ;
+    height:30px ;
+    font-family: 'Raleway', sans-serif;
+}
+.search{
+    width: 150px;
+    height: 30px;
+    background-color:#0065FC ;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*menu filtre*/
+
+.butfilter{
+    width: 1000px;
+    height: 40px;
+    margin-left: 1200px;
+    background-color: teal;
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.buttonf{
+    float: left;
+    width: 190px;
+    height: 30px;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    border-radius:  20px;
+    border:#DEEBFF solid 3px;
+}
+
+.buttonf:hover{
+    background:#0065FC ;
+}
+
+.logo1{
+    background-color: #DEEBFF;
+    width: 30px;
+    border-radius: 40px;
+    float: left;
+}
+
+/*fenetre hébergement*/
+
+.hébergement{
+    background-color: aqua;
+    width: 900px;
+    height: 700px;
+}
+
+
+.img1 {
+    padding: 15px;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    }
