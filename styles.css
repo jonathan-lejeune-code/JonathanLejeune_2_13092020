@@ -1,108 +1,128 @@
+/*commun*/
 
-/*fond body*/
-.body{
-    background-color:#F2F2F2 ;
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
 /*logo*/
-.logop{
+.logop {
     height: 100px;
     width: 100px;
-   background-color: aqua;
-   
+    flex: auto;
+
 }
 
 /*titre*/
-.h1,.h2,.h3,.h4,.h5,.h6{
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-family: 'Raleway', sans-serif;
+
 }
 
 /*barre menu*/
 
-.onglet{
+.onglet {
     width: 300px;
     height: 50px;
     float: right;
-    background-color: teal;
-    list-style-type:none;
+    list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
 
-.button{
-float: left;
-margin: 10px;
-color: #0065FC;
-font-family: 'Raleway', sans-serif;
+.button {
+    float: left;
+    margin: 10px;
+    color: #0065FC;
+    font-family: 'Raleway', sans-serif;
 }
+
+.buttona{
+    text-decoration: none;
+    color: #0065FC;
+}
+
 /*barre recherche*/
 
-.barre{
+.barre {
     background-color: brown;
+
 }
 
-#search{
-    width:250px ;
-    height:30px ;
-    font-family: 'Raleway', sans-serif;
+#search {
+    width: 250px;
+    height: 30px;
+
 }
-.search{
+
+.search {
     width: 150px;
     height: 30px;
-    background-color:#0065FC ;
+    background-color: #0065FC;
     color: white;
     border-radius: 50px;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 /*menu filtre*/
 
-.butfilter{
+.butfilter {
     width: 1000px;
     height: 40px;
-    margin-left: 1200px;
     background-color: teal;
-    list-style-type:none;
+    list-style-type: none;
     padding: 0px;
     margin: 0px;
-    
 }
 
-.buttonf{
+.buttonf {
     float: left;
     width: 190px;
     height: 30px;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
-    border-radius:  20px;
-    border:#DEEBFF solid 3px;
+    border-radius: 20px;
+    border: #DEEBFF solid 3px;
 }
 
-.buttonf:hover{
-    background:#0065FC ;
+.buttonf:hover {
+    background: #0065FC;
 }
 
-.logo1{
+.logo1 {
     background-color: #DEEBFF;
-    width: 30px;
-    border-radius: 40px;
+    width: 15px;
+    border-radius: 20px;
+    border: solid 7px #f2f2f2;
     float: left;
+}
+
+.buttonfa{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 /*fenetre hébergement*/
 
-.hébergement{
-    background-color: aqua;
-    width: 900px;
-    height: 700px;
+.hébergement {
+    background-color: #f2f2f2;
+    width: 40%;
+    height: 50%;
 }
 
 
 .img1 {
     padding: 15px;
-    width: 250px; 
-    height: 250px; 
-    object-fit: cover; 
-    }
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
