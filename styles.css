@@ -10,9 +10,12 @@
     }
 
     .box {
-        display: flex;
-        flex-direction: row;
+        width: auto;
+        height: 300px;
+        display: flex ;
+        flex-flow: row wrap;
         justify-content: space-between;
+        background-color: tomato;
 
     }
 
@@ -40,7 +43,8 @@
     .logop {
         height: 100px;
         width: 100px;
-        flex: auto;
+       justify-content: flex-start;
+        background-color: turquoise;
 
     }
 
@@ -52,7 +56,7 @@
     .h5,
     .h6 {
         font-family: 'Raleway', sans-serif;
-        background-color: violet;
+      
 
 
 
@@ -60,19 +64,21 @@
 
 
     /*barre menu*/
+   
 
     .onglet {
-        width: 300px;
+        width: auto;
         height: 50px;
-        float: right;
         list-style-type: none;
         padding: 0px;
-        margin: 0px;
+        margin: auto;
+        justify-content: flex-end;
+        background-color: violet;
     }
 
     .button {
-        float: left;
-        margin: 10px;
+        float: right;
+        margin-right: 30px;
         color: #0065FC;
         font-family: 'Raleway', sans-serif;
         padding-top: 30px;
@@ -86,7 +92,10 @@
     /*barre recherche*/
 
     .barre {
+        
         background-color: brown;
+        
+        
 
     }
 
@@ -102,8 +111,8 @@
         height: 40px;
         background-color: #0065FC;
         color: white;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
 
     }
 
@@ -118,20 +127,20 @@
         margin: 0px;
         display: flex;
         flex-direction: row;
-        text-align: center;
-
+        flex-grow: 3;
+       
     }
 
     .buttonf {
         float: left;
         width: 200px;
         height: 32px;
-        margin: auto;
         text-align: center;
         border-radius: 20px;
-        border: #DEEBFF solid 3px;
-        margin-left: 8PX;
+        border: #DEEBFF solid 2px;
+        margin:17px;
         list-style-type: none;
+        background-color: transparent;
 
 
 
@@ -143,11 +152,15 @@
 
     .logo1 {
         background-color: #DEEBFF;
-        width: 15px;
+        width: 17px;
         height: 19px;
-        border-radius: 30px;
-        border: solid 7px #f2f2f2;
-        float: left;
+        border-radius:50%;
+        border: solid 2px #f2f2f2;
+        float: left;+
+        padding: auto;
+        
+
+       
 
 
 
@@ -200,14 +213,7 @@
 
 
     }
-    .buttonfaa {
-        text-decoration: none;
-        background-color: tomato;
-        color: black;
-        font-weight: bold;
-        text-align: center
-        
-    }
+   
 
     /*fenetre populaire*/
 
