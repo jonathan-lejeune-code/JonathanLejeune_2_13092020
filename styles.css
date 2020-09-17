@@ -10,13 +10,12 @@
     }
 
     .box {
-        width: auto;
-        height: 300px;
+        width: 100%;
+        height:auto;
         display: flex ;
         flex-flow: row wrap;
         justify-content: space-between;
-        background-color: tomato;
-
+        
     }
 
     .box2 {
@@ -40,12 +39,11 @@
     }
 
     /*logo*/
+
     .logop {
         height: 100px;
         width: 100px;
-       justify-content: flex-start;
-        background-color: turquoise;
-
+       
     }
 
     /*titre*/
@@ -56,24 +54,26 @@
     .h5,
     .h6 {
         font-family: 'Raleway', sans-serif;
-      
-
-
+        padding: 10%;
 
     }
 
 
     /*barre menu*/
+
+    .menu{
+        width: 100%;
+        height: 50%;
+        
+    }
    
 
     .onglet {
-        width: auto;
-        height: 50px;
+        width:500px;
+        height: 20px;
         list-style-type: none;
-        padding: 0px;
-        margin: auto;
-        justify-content: flex-end;
-        background-color: violet;
+        margin: auto;    
+        
     }
 
     .button {
@@ -81,7 +81,7 @@
         margin-right: 30px;
         color: #0065FC;
         font-family: 'Raleway', sans-serif;
-        padding-top: 30px;
+        padding-top: 0px;
     }
 
     .buttona {
@@ -92,7 +92,7 @@
     /*barre recherche*/
 
     .barre {
-        
+        width: 100%;
         background-color: brown;
         
         
@@ -156,7 +156,7 @@
         height: 19px;
         border-radius:50%;
         border: solid 2px #f2f2f2;
-        float: left;+
+        float: left;
         padding: auto;
         
 
