@@ -15,6 +15,7 @@
         display: flex ;
         flex-flow: row wrap;
         justify-content: space-between;
+        align-items: center;
         
     }
 
@@ -44,9 +45,11 @@
         height: 100px;
         width: 100px;
        
+       
     }
 
     /*titre*/
+
     .h1,
     .h2,
     .h3,
@@ -55,7 +58,7 @@
     .h6 {
         font-family: 'Raleway', sans-serif;
         padding: 10%;
-
+       
     }
 
 
@@ -121,15 +124,16 @@
     .butfilter {
         width: 100%;
         height: 80px;
-        background-color: teal;
         list-style-type: none;
         padding: 0px;
         margin: 0px;
         display: flex;
         flex-direction: row;
-        flex-grow: 3;
+       
+        
        
     }
+    
 
     .buttonf {
         float: left;
@@ -138,11 +142,13 @@
         text-align: center;
         border-radius: 20px;
         border: #DEEBFF solid 2px;
-        margin:17px;
+        margin:20px;
+        padding: 0px;
         list-style-type: none;
-        background-color: transparent;
-
-
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: transparent;
 
     }
 
@@ -150,28 +156,30 @@
         background: #0065FC;
     }
 
-    .logo1 {
-        background-color: #DEEBFF;
-        width: 17px;
-        height: 19px;
-        border-radius:50%;
-        border: solid 2px #f2f2f2;
-        float: left;
-        padding: auto;
-        
-
-       
-
-
+    .icon1 {
+        background-color:#DEEBFF;
+        width: 7%;
+        height: auto;
+        border-radius:40px;
+        border: solid 5px #DEEBFF;
+        margin-right: 10px;
+        flex:0 1 auto;
 
     }
 
-    .buttonfa {
+    .icon{
+        width: 20px;
+        float: left;
+        margin-right: 10px;
+    
+    }
+
+    .textbtn {
         text-decoration: none;
-        background-color: tomato;
         color: black;
         font-weight: bold;
         text-align: center;
+        flex: 2 1 auto ;
         
     }
 
