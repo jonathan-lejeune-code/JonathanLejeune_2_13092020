@@ -137,18 +137,25 @@
 
     .buttonf {
         float: left;
-        width: 200px;
-        height: 32px;
+        width: auto;
+        height: 35px;
         text-align: center;
         border-radius: 20px;
         border: #DEEBFF solid 2px;
-        margin:20px;
+        margin:15px;
         padding: 0px;
         list-style-type: none;
         display: flex;
         flex-direction: row;
         align-items: center;
         background: transparent;
+        overflow: hidden;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        flex: 1 1 auto ;
+        
 
     }
 
@@ -158,10 +165,10 @@
 
     .icon1 {
         background-color:#DEEBFF;
-        width: 7%;
+        width: 6%;
         height: auto;
-        border-radius:40px;
-        border: solid 5px #DEEBFF;
+        border-radius:50px;
+        border: solid 11px #DEEBFF;
         margin-right: 10px;
         flex:0 1 auto;
 
@@ -173,16 +180,6 @@
         margin-right: 10px;
     
     }
-
-    .textbtn {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        text-align: center;
-        flex: 2 1 auto ;
-        
-    }
-
 
     /*fenetre hébergement*/
 
