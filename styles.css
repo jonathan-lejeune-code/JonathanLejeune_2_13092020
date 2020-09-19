@@ -148,12 +148,13 @@
         border-radius: 20px;
         border: #DEEBFF solid 2px;
         margin:15px;
-        padding:  0px;
+        padding-right:10px;
         display: flex;
         flex-direction: row;
         align-items: center;
         background: transparent;
         overflow: hidden;
+        font-family: 'raleway', sans-serif;
         color: black;
         font-size: 16px;
         font-weight: bold;
