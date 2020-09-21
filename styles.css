@@ -57,7 +57,7 @@
     .h5,
     .h6 {
         font-family: 'Raleway', sans-serif;
-        padding: 10%;
+        padding: 0px;
        
     }
 
@@ -88,48 +88,67 @@
     }
 
     .buttona {
-        text-decoration: none;
+        text-decoration:none;
         color: #0065FC;
     }
+
+    .buttona:active {
+        text-decoration: overline #0065FC;
+    }
+
 
     /*barre recherche*/
 
     .barre {
-        width: 100%;
-        background-color: brown;
+        width: 370px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #f2f2f2;
+        border-radius: 20px;
+        background-color:#f2f2f2;
         
         
 
     }
-    .iconp{
-        width: 19px;
-        height: auto;
-        background-color: #f2f2f2;
-        border: solid 10px #f2f2f2;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-    
+
+    .fond_icp{
+        width:10%;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
     }
-    #search {
-        width: 250px;
-        height: 30px;
+    .iconp{
+        width: 40%;
+        height: 18px;
+        background-color: #f2f2f2;
+    }
+    
+    .text {
+        width: 200px;
+        height: 38px;
         font-family: 'raleway', sans-serif;
         color: black;
         font-size: 16px;
         font-weight: bold;
         text-align: left;
+        border: transparent;
 
 
     }
 
     .btns {
         width: 150px;
-        height: 37px;
+        height: 38px;
+        margin: 0px;
+        padding: 10px;
         background-color: #0065FC;
         color: white;
         font-family: 'raleway', sans-serif;
         font-size: 14px;
         text-align: center;
+        border: none;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
 
@@ -163,8 +182,8 @@
         text-align: center;
         border-radius: 20px;
         border: #DEEBFF solid 2px;
-        margin:15px;
-        padding-right:10px;
+        margin:15px 15px 0px 25px;
+        padding-right:15px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -175,9 +194,6 @@
         font-size: 16px;
         font-weight: bold;
         text-align: center;
-       
-        
-        
 
     }
 
@@ -205,7 +221,7 @@
 
     /*fenetre hébergement*/
 
-    .hébergement {
+    #hébergement {
         background-color: #f2f2f2;
         width: 75%;
         height: auto;
@@ -244,7 +260,7 @@
 
     /*fenetre populaire*/
 
-    .populaire {
+    #populaire {
         background-color: #f2f2f2;
         width: 22%;
         height: auto;

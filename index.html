@@ -32,16 +32,20 @@
         </nav>
       </div>
   </header>      
+  <h2>Trouver votre hébergement pour vos vacances de réve</h2>
+  <h5>En plein centre ville ou en pleine nature</h5>
+
 
       <!--Barre recherche-->
 
-      <form>
         <div class="barre">
-          <h2>Trouver votre hébergement pour vos vacances de réve</h2>
-          <h4>En plein centre ville ou en pleine nature</h4>
-          <img class="iconp" src="/images/logo/pin.svg" alt="logo pin"><input type="text" id="search"><input class="btns" type="submit" value="Recherche">
+          <div class="fond_icp">
+            <img class="iconp" src="/images/logo/pin.svg" alt="logo pin">
+          </div>
+            <input type="search" class="text" placeholder="Marseille,France">
+            <input class="btns" type="submit" value="Recherche">     
         </div>
-      </form>
+      
 
       <!--menu filtre-->
       <section class="butfilter">
@@ -63,7 +67,7 @@
   
   <!--fenetre hébergement-->
   <div class="box2">
-    <section class="hébergement">
+    <section id="hébergement">
       <h2> Hébergement a Marseille</h2>
       <div class="img_hebergements">
 
@@ -103,7 +107,7 @@
     </section>
 
     <!--fenetre populaire-->
-    <div class="populaire">
+    <div id="populaire">
       <h2>Les plus populaires</h2>
       <div class="img_populaire">
         <a href="" target="_blank"><img class="img2" src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
@@ -117,56 +121,58 @@
     </div>
   </div>
 
-  <!--fenetre activité-->
+    <!--fenetre activité-->
   <div class="box3">
-      <h2> Activité a Marseille</h2>
-      <div class="img_activité">
+    <div id="Activité">
+        <h2> Activité a Marseille</h2>
+        <div class="img_activité">
 
-        <div class="imga1">
-          <article class="bordera" >  
-            <a href="" target="_blank"><img class="imgb1"
-                  src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image appart la canebiere"
-                  ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
-          </article>
-        </div>
-
-        <div class="imga2">
-            <article class="bordera1" >  
+          <div class="imga1">
+            <article class="bordera" >  
               <a href="" target="_blank"><img class="imgb1"
-                  src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Image appart la canebiere"
+                    src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image appart la canebiere"
+                    ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
+            </article>
+          </div>
+
+          <div class="imga2">
+              <article class="bordera1" >  
+                <a href="" target="_blank"><img class="imgb1"
+                    src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Image appart la canebiere"
+                    ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
+              </article>
+
+              <article class="bordera2" >  
+                <a href="" target="_blank"><img class="imgb1"
+                  src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Image appart la canebiere"
                   ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
+              </article>
+          </div>
+          
+          <div class="imga1">
+            <article class="bordera3" >  
+              <a href="" target="_blank"><img class="imgb1"
+              src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Image appart la canebiere"
+              ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
+            </article>
+          </div>
+          
+          <div class="imga2">
+            <article class="bordera4" >  
+              <a href="" target="_blank"><img class="imgb1"
+              src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Image appart la canebiere"
+              ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
             </article>
 
-            <article class="bordera2" >  
+          
+            <article class="bordera5" >  
               <a href="" target="_blank"><img class="imgb1"
-                src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Image appart la canebiere"
-                ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
+              src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image appart la canebiere"
+              ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
             </article>
+          </div>  
         </div>
-        
-        <div class="imga1">
-          <article class="bordera3" >  
-            <a href="" target="_blank"><img class="imgb1"
-            src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Image appart la canebiere"
-            ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
-          </article>
-        </div>
-        
-        <div class="imga2">
-          <article class="bordera4" >  
-            <a href="" target="_blank"><img class="imgb1"
-            src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Image appart la canebiere"
-            ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
-          </article>
-
-        
-          <article class="bordera5" >  
-            <a href="" target="_blank"><img class="imgb1"
-            src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image appart la canebiere"
-            ></a> <h3>Auberge de la cannebiére</h3> <br> <p>Nuit a partir de  </p>
-          </article>
-        </div>  
-      </div>
+    </div>
   </div>
 </body>
 
