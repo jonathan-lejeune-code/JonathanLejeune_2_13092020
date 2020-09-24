@@ -170,7 +170,6 @@
     }
     
 
-
 .buttonfi{
         width: 80%;
         height: auto;
@@ -214,10 +213,14 @@
 
     }
 
-    .icon{
+    .butfilter i{
         width: 20px;
         float: left;
         margin-right: 10px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border: #DEEBFF solid 10px;
+        border-radius: 50px;
     
     }
 
