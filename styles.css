@@ -276,18 +276,18 @@ h4{
     }
 
     p{
-        background-color: seagreen;
+        
         font-family: 'Raleway', sans-serif;
-        font-size: 10px;
-        width: 100px ;
+        font-size: 12px;
+        width: 150px ;
         height: 15px;
         padding: 0px;
-        margin: 0px 0px 0px 20px;
+        margin: 6px 0px 0px 20px;
         
     }
 
     .border {
-        background-color:purple;
+        background-color:white;
         width:30%;
         height: 280px;
         margin: 0px 17px 10px 17px;
@@ -310,21 +310,34 @@ h4{
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
 
-
     }
     
     .border h6{
         font-family: 'Raleway', sans-serif;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: bold;
-        width: 200px;
+        width: 250px;
         height: 15px;
         padding: 0px;
         margin: 0px 0px 0px 20px;
-        background-color:red;
-    
-         
     }
+
+    .fas{
+        width: 13px;
+    }
+
+    .sblue{
+        width: 120px;
+        color: #0065FC;
+        margin: 0px 0px 0px 20px;
+        
+    }
+
+    .grey{
+        color:#f2f2f2;
+       
+    }
+    
 
     /*fenetre populaire*/
 
@@ -334,34 +347,75 @@ h4{
         height: auto;
         border-radius: 40px;
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
 
     }
 
-    .border1 {
+    .border2 {
         background-color:yellow;
-        width:90%;
-        height: 180px;
-        margin: 0px 17px 15px 17px;
-        float: left;
+        width:96%;
+        height: auto;
+        margin: 10px 20px 20px 20px;
         border-radius: 30px;
-        display:flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-
+        display: flex;
+        flex-direction: row;
+       
+        
+        
+    }
+    
+    .border2 p{
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        width: 150px ;
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+        
     }
 
+    
 
     .img2 {
         padding: 15px;
-        width: 35%;
+        width: 60%;
         height: 160px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         margin:0px;
-        padding: 10px;
+        padding: 0px;
+        float: left;
+        
     }
+
+    .border2 h6{
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        width: 150px;
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+        background-color: teal;
+    }
+
+    .fas{
+        width: 13px;
+    }
+
+    .border2 .sblue{
+        width: 120px;
+        color: #0065FC;
+        margin: 0px 0px 0px 0px;
+        
+    }
+
+    .grey{
+        color:#f2f2f2;
+       
+    }
+    
+
+
     /*fenetre activité*/
 
     .imga1,.imga2{
