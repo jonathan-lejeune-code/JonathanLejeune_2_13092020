@@ -27,7 +27,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 20px;
+        margin: 20px 10px 10px 10px;
         width: 100%;
         height: 650px;
         background-color: violet;
@@ -43,16 +43,7 @@
 
     }
 
-    h3{ 
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        height: 25px;
-        padding: 0px;
-        margin: 20px 0px 0px 30px;
-        background-color: yellowgreen;
-
-     }
+    
 
     /*logo*/
 
@@ -267,7 +258,7 @@ h4{
     #hébergement {
         background-color: #f2f2f2;
         width: 75%;
-        height:auto;
+        height:650px;
         border-radius: 40px;
         display: flex;
         flex-direction:row;
@@ -311,10 +302,22 @@ h4{
         border-top-right-radius: 30px;
 
     }
+
+    
+    #hébergement h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        width: 300px;
+        height: 20px;
+        padding: 0px;
+        margin: 10px 0px 0px 20px;
+       
+    }
     
     .border h6{
         font-family: 'Raleway', sans-serif;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
         width: 250px;
         height: 15px;
@@ -322,8 +325,9 @@ h4{
         margin: 0px 0px 0px 20px;
     }
 
-    .fas{
-        width: 13px;
+    #hébergement .fas{
+        width: 15px;
+        
     }
 
     .sblue{
@@ -341,62 +345,96 @@ h4{
 
     /*fenetre populaire*/
 
+
     #populaire {
         background-color: #f2f2f2;
         width: 22%;
-        height: auto;
+        height: 650px;
+        margin-right: 10px;
         border-radius: 40px;
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
+    }
+
+    .pop{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+    }
+
+    .pop i{
+        background-color: lawngreen;
+        width: 20px;
+        margin: 10px 0px 0px 70px;
     }
 
     .border2 {
         background-color:yellow;
         width:96%;
-        height: auto;
-        margin: 10px 20px 20px 20px;
+        height: 33%;
+        margin: 10px 10px 20px 10px;
         border-radius: 30px;
         display: flex;
         flex-direction: row;
-       
-        
-        
-    }
-    
-    .border2 p{
-        
-        font-family: 'Raleway', sans-serif;
-        font-size: 10px;
-        width: 150px ;
-        padding: 0px;
-        margin: 0px 0px 0px 0px;
+        flex-wrap: wrap;
+        justify-content: space-between;
         
     }
 
     
-
     .img2 {
         padding: 15px;
-        width: 60%;
-        height: 160px;
+        width: 40%;
+        height: 150px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         margin:0px;
         padding: 0px;
-        float: left;
+       
         
+    }
+
+    #populaire h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        width: 190px;
+        height: 20px;
+        padding: 0px;
+        margin: 10px 0px 0px 20px;
+       
     }
 
     .border2 h6{
         font-family: 'Raleway', sans-serif;
         font-size: 12px;
         font-weight: bold;
-        width: 150px;
+        width:auto;
+        height: 15px;
         padding: 0px;
-        margin: 0px 0px 0px 0px;
+        margin: 10px 100px 0px 0px;
+        flex: 2 1 auto ;
         background-color: teal;
     }
+
+    
+    .border2 p{
+        background-color: lawngreen;
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        width: 200px;
+        height: 12px;
+        padding: 0px;
+        margin: 10px 0px 0px 0px;
+        
+    }
+
+
+    
 
     .fas{
         width: 13px;
@@ -405,7 +443,7 @@ h4{
     .border2 .sblue{
         width: 120px;
         color: #0065FC;
-        margin: 0px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
         
     }
 
@@ -413,7 +451,7 @@ h4{
         color:#f2f2f2;
        
     }
-    
+        
 
 
     /*fenetre activité*/
