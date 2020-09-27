@@ -33,11 +33,9 @@
 
     }
     .box3 {
-        
-        margin-top: 50px;
-        background-color: violet;
-            
-
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
 
     }
 
@@ -381,7 +379,7 @@ h4{
         background-color:white;
         width:85%;
         height: 33%;
-        margin: 65px 15px 0px 25px;
+        margin: 65px 15px 0px 15px;
         border-radius: 30px;
         display: flex;
         flex-direction: row;
@@ -393,10 +391,10 @@ h4{
     .img2 {
         padding: 0px;
         width: 100px;
-        height:100px;
+        height:110px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
-        margin:15px;
+        margin:10px;
         padding: 0px;
         
     
@@ -460,13 +458,14 @@ h4{
     /*fenetre activité*/
 
     #Activités{
-        background-color: #f2f2f2;
+        background-color:#f2f2f2;
         width: 100%;
-        height: 650px;
+        height: 600px;
         margin-right: 10px;
         border-radius: 40px;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
+        flex-wrap: wrap;
         
     }
 
@@ -474,68 +473,75 @@ h4{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
-        background-color: crimson;
-        width: 100%;
+        width: 30%;
         height: 20px;
         padding: 0px;
-        margin: 10px 0px 0px 20px;
+        margin: 20px 0px 0px 20px;
     
 
+    }
+
+    .img_activité{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
     }
 
     .imga1{
-      width: 25%;
+      width: 24%;
       height:90%;
-      background-color: blueviolet;
      
     }
 
-    .imga2{
-       
-        width: 25%;
-        height:600px;
-        background-color: chocolate;
-
-    }
 
     .bordera {
-        background-color: yellowgreen;
-        width: 25%;
-        height: auto;
-        margin: 10px;
-        border-radius: 40px;
-        display: flex;
-        flex-direction: column;
-       
+        background-color:white;
+        width: 95%;
+        height: 540px;
+        margin: 10px 10px 10px 10px;
+        border-radius: 30px;
+        
         
     }
 
-    .bordera h6{
+    .bordera2{
+        background-color: white;
+        width: 95%;
+        height: 260px;
+        margin: 10px 10px 20px 10px;
+        border-radius: 30px;
+        
+    }
+
+    .bordera h6,.bordera2 h6{
         font-family: 'Raleway', sans-serif;
         font-size: 12px;
         font-weight: bold;
-        width:auto;
+        width:300px;
         height: 15px;
         padding: 0px;
-        margin: 10px 10px 0px 0px;
-        background-color: teal;
+        margin: 0px 0px 0px 20px;
+       
     }
 
     .imgb1{
-        width: 25%;
-        height: 100%;
-        
-    
+    width: 96%;
+    height:500px;
+    margin: 10px 7px 0px 7px;
+    border-radius: 30px;
     }
 
     .imgb2{
-    width: 25%;
-    height: 50%;
-    
+    width: 96%;
+    height: 230px;
+    margin: 10px 7px 0px 7px;
+    border-radius: 30px;
     }
 
+   
 
-/*fnetre footer*/
+/*fenetre footer*/
 footer{
     background-color: #f2f2f2;
     display: flex;
