@@ -370,7 +370,7 @@ h4{
        
     }
 
-    .pop i{p
+    .pop i{
         width: 20px;
         margin: 10px 0px 0px 70px;
     }
@@ -466,35 +466,35 @@ h4{
         margin-right: 10px;
         border-radius: 40px;
         display: flex;
-        flex-direction:column;
-    
-
+        flex-direction:row;
+        
     }
 
     #Activités h3{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
-        width: 190px;
+        background-color: crimson;
+        width: 100%;
         height: 20px;
         padding: 0px;
         margin: 10px 0px 0px 20px;
+    
 
     }
 
     .imga1{
-      display: flex;
-      flex-direction:row;
       width: 25%;
-      height:auto;
+      height:90%;
+      background-color: blueviolet;
      
     }
 
     .imga2{
-        display: flex;
-        flex-direction: column;
+       
         width: 25%;
-        height:auto;
+        height:600px;
+        background-color: chocolate;
 
     }
 
@@ -533,6 +533,90 @@ h4{
     height: 50%;
     
     }
+
+
+/*fnetre footer*/
+footer{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+
+
+
+}
+
+/* block a propos footer*/
+
+.propos{
+    width: 33%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.propos h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0px 10px 0px;
+}
+
+.propos p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    width: auto;
+    margin: 5px 0px 0px 0px;
+}
+
+/* block nos hébergements footer*/
+
+.nous{
+    width: 33%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nous h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0px 10px 0px;
+}
+
+.nous p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    width: auto;
+    margin: 5px 0px 0px 0px;
+}
+
+/* block aide footer*/
+
+.aide{
+    width: 33%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.aide h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0px 10px 0px;
+}
+
+.aide p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    width: auto;
+    margin: 5px 0px 0px 0px;
+}
 
 
 @media only screen and(min-width: 768px) and (max-width: 959px) {
