@@ -7,14 +7,11 @@
     .body {
         height: 1884px;
         width: 1440px;
-<<<<<<< HEAD
         margin: 50px; 
-=======
         margin: 50px;
         font-family: 'raleway', sans-serif;
         color: black;
        
->>>>>>> 68a1c8633638f7b7e405e882da7604128ab5313f
     }
 
     .box {
@@ -73,7 +70,7 @@
         
     }
 
-    .button {
+    .onglet li{
         float: right;
         margin-right: 30px;
         color: #0065FC;
@@ -82,22 +79,40 @@
     }
 
 
-    .buttona {
+    .onglet a {
         cursor: pointer;
         text-decoration:none;
         color: #0065FC;
     }
 
+    /* Animation du menu */
+    
+    nav ul li a:hover {
+    border-top: 2px solid #0065FC;
+    text-decoration: overline #0065FC;
+    
+    
+    }
+
+    
+    nav ul li a:active {
+    border-top: 2px solid #0065FC;
+    padding-top : 40px;
+    color:#DEEBFF;
+}
+
+
+
     /*titres site*/
 
-    h2{
+    h1{
         font-family: 'Raleway', sans-serif;
         font-size: 16px;
         padding: 0px;
         margin: 10px;
     }
     
-    h5{
+    h2{
         font-family: 'Raleway', sans-serif;
         font-size: 11px;
         padding: 0px;
@@ -141,6 +156,7 @@
         border: transparent;
     }
 
+    
 
 
     .btns {
@@ -162,7 +178,7 @@
 
     /*menu filtre*/
 
-    h4{
+    .butfilter h2{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     padding: 0px;
@@ -183,12 +199,7 @@
     }
     
 
-    .buttonfi{
-        width: 80%;
-        height: auto;
-        padding: 0px;
-    }
-
+   
     .buttonf {
         float: left;
         width: auto;
@@ -312,7 +323,7 @@
     }
 
     
-    #hébergement h3{
+    #hébergement h2{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -323,7 +334,7 @@
        
     }
     
-    .border h6{
+    .border h3{
         font-family: 'Raleway', sans-serif;
         font-size: 14px;
         font-weight: bold;
@@ -403,7 +414,7 @@
     
     }
 
-    #populaire h3{
+    #populaire h2{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -414,7 +425,7 @@
        
     }
 
-    .border2 h6{
+    .border2 h3{
         font-family: 'Raleway', sans-serif;
         font-size: 14px;
         font-weight: bold;
@@ -471,7 +482,7 @@
         
     }
 
-    #Activités h3{
+    #Activités h2{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -517,7 +528,7 @@
         
     }
 
-    .bordera h6,.bordera2 h6{
+    .bordera h3,.bordera2 h3{
         font-family: 'Raleway', sans-serif;
         font-size: 16px;
         font-weight: bold;
@@ -566,7 +577,7 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    .propos h6{
+    .propos h2{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -642,19 +653,44 @@
     .body {
         height: auto;
         width: 100%;
+        margin: 10px;
         font-family: 'raleway', sans-serif;
         font-size: auto;
         color: black;
        
     }
+
+    .box {
+        width: 100%;
+        height:auto;
+        display: flex ;
+        flex-flow:column; 
+        
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px 10px 10px 10px;
+        width: 100%;
+        height: 650px;
+
+    }
+    .box3 {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+
+    }
+
     .logop{
-        width: 50%;
+        width: 100%;
     }
     
     .menu{
         width: 100%;
         height: auto;
-        display: block;
         margin: 0px;
     }
 
@@ -663,11 +699,110 @@
         padding: 0px;
     }
 
-    .buttona{
-        width: 100px;
-        margin-right:12px ;
+    .button{
+        margin-left:2px ;
         background-color: chocolate;
     }
+
+     /*titres site*/
+
+     h2{
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        padding: 0px;
+        margin: 10px;
+    }
+    
+    h5{
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    /*barre recherche*/
+
+    .barre {
+        width: 330px;
+      
+        display: flex;
+        align-items: center;
+        border: 1px solid #f2f2f2;
+        border-radius: 15px;
+        background-color:#f2f2f2;
+
+    }
+
+
+
+    .fond_icp{
+        width:15%;
+        height: 38px;
+        
+        
+    }
+
+    .btns {
+        width: 130px;
+        height: 38px;
+      
+        background-color: #0065FC;
+        color: white;
+        font-family: 'raleway', sans-serif;
+        font-size: 14px;
+
+    }
+
+    /*menu filtre*/
+
+    h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+
+    
+    }
+
+
+    .butfilter {
+        width: 100%;
+        height:auto;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+        
+    }
+
+    .buttonf {
+        
+        width: auto;
+        height: 30px;
+
+
+    }
+
+    .buttonf:hover {
+        background: #0065FC;
+    }
+
+
+    .butfilter i{
+       
+    
+    }
+    
+
+    .info i {
+        
+ 
+     }
+
+    .info p {
+        
+
+    }
+
     
 
     
