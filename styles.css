@@ -7,12 +7,7 @@
     body {
         height: 1884px;
         width: 1440px;
-<<<<<<< HEAD
         margin: 10px 20px ;
-=======
-        margin: 50px; 
-        margin: 50px;
->>>>>>> master
         font-family: 'raleway', sans-serif;
         color: black;
        
@@ -96,7 +91,7 @@
     
     nav ul li a:hover {
     border-top: 2px solid #0065FC;
-    text-decoration: overline #0065FC;
+    padding-top: 15px;
     
     
     }
@@ -655,7 +650,7 @@
 }
  
 
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 480px){
 
     body {
         height: auto;
@@ -725,13 +720,6 @@
 
     }
 
-
-     /*titres site*/
-
-    
-    
-  
-
     /*barre recherche*/
 
     .barre {
@@ -770,8 +758,6 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin: 0px;
-    background-color: blueviolet;
-
     
     }
 
@@ -783,8 +769,11 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
-        
+        align-items: baseline;
+    }
+
+    .buttonf{
+        margin:15px 15px 0px 0px;
     }
 
     .buttonf {
@@ -806,6 +795,6 @@
     .img_hebergements{
         display: flex;
         flex-direction: column;
-    } 
+    }
 
 }
