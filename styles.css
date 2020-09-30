@@ -7,7 +7,12 @@
     body {
         height: 1884px;
         width: 1440px;
+<<<<<<< HEAD
         margin: 10px 20px ;
+=======
+        margin: 50px; 
+        margin: 50px;
+>>>>>>> master
         font-family: 'raleway', sans-serif;
         color: black;
        
