@@ -650,7 +650,7 @@
 }
  
 
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 480px){
 
     body {
         height: auto;
@@ -765,7 +765,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin: 0px;
-    background-color: blueviolet;
+    
 
     
     }
@@ -778,6 +778,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: baseline;
         
         
     }
@@ -795,6 +796,7 @@
 
     #hébergement{
         width: 100%;
+        height: auto;
     }
    
 
