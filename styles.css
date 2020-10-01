@@ -5,7 +5,7 @@
     /*commun*/
 
     body {
-        height: 1884px;
+        height:auto;
         width: 1440px;
         margin: 10px 20px ;
         font-family: 'raleway', sans-serif;
@@ -55,19 +55,13 @@
     .menu{
         width: 100%;
         height: 50%;
-    }
-   
-
-    .onglet {
-        width:300px;
-        height: 20px;
         list-style-type: none;
         margin: auto;  
         display: flex;
         flex-direction: row;     
     }
 
-    .onglet li{
+    .menu li{
         float: right;
         margin-right: 30px;
         color: #0065FC;
@@ -77,7 +71,7 @@
     }
 
 
-    .onglet a {
+    .menu a {
         cursor: pointer;
         text-decoration:none;
         color: #0065FC;
@@ -89,7 +83,7 @@
     }
     /* Animation du menu */
     
-    nav ul li a:hover {
+    nav li a:hover {
     border-top: 2px solid #0065FC;
     padding-top: 15px;
     
@@ -97,7 +91,7 @@
     }
 
     
-    nav ul li a:active {
+    nav li a:active {
     border-top: 2px solid #0065FC;
     padding-top : 40px;
     color:#DEEBFF;
@@ -236,7 +230,7 @@
         margin-right: 10px;
         color: #0065FC;
         background-color: #DEEBFF;
-        border: solid 10px #DEEBFF;
+        border: solid 7px #DEEBFF;
         border-radius: 50px;
     
     }
@@ -281,10 +275,9 @@
     p{
         
         font-family: 'Raleway', sans-serif;
-        font-size: 12px;
+        font-size: 10px;
         width: 150px ;
         height: 15px;
-        padding: 0px;
         margin: 6px 0px 0px 20px;
         
     }
@@ -301,8 +294,8 @@
     .border {
         background-color:white;
         width:25%;
-        height: 200px;
-        margin: 40px 40px 40px 40px;
+        height: 250px;
+        margin: 30px 40px 30px 40px;
         float: left;
         border-radius: 40px;
         display:flex;
@@ -316,8 +309,8 @@
         padding: 0px;
         margin: 2%;
         width: 96%;
-        height: 120px;
-        margin-top: 10px;
+        height: 170px;
+        margin-top: 5px;
         margin-bottom: 0px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
@@ -392,26 +385,25 @@
     /*conteneur*/
 
     .border2 {
-        background-color:white;
+        background-color: white;
         width:85%;
-        height: 33%;
-        margin: 65px 15px 0px 15px;
+        height: auto;
+        margin: 45px 25px 0px 25px;
         border-radius: 30px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
 
     }
 
     
     .img2 {
-        padding: 0px;
+        margin: 7px 7px 7px 7px;
         width: 100px;
-        height:110px;
+        height:140px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
-        margin:10px;
-        padding: 0px;
         
     
     }
@@ -430,7 +422,7 @@
     .border2 h3{
         font-family: 'Raleway', sans-serif;
         font-size: 14px;
-        font-weight: bold;
+        font-weight:bold;
         width:130px;
         height: 35px;
         padding: 0px;
@@ -442,11 +434,11 @@
     .border2 p{
         
         font-family: 'Raleway', sans-serif;
-        font-size: 12px;
+        font-size: 10px;
         width: auto;
         height: 15px;
         padding: 0px;
-        margin: 15px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
         
     }
 
@@ -460,7 +452,7 @@
     .border2 .sblue{
         width: auto;
         color: #0065FC;
-        margin: 20px 0px 0px 0px;
+        margin: 50px 0px 0px 0px;
         
     }
 
@@ -552,7 +544,7 @@
     .imgb2{
     width: 100%;
     height: 230px;
-    margin: 0px 0px px 0px;
+    margin: 0px 0px 0px 0px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     }
@@ -560,6 +552,7 @@
    
 
     /*fenetre footer*/
+    
     footer{
     background-color: #f2f2f2;
     display: flex;
@@ -567,7 +560,7 @@
     justify-content: space-between;
     width: 100%;
     height: 200px;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
     }
 
     /* block a propos footer*/
@@ -602,7 +595,7 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    .nous h6{
+    .nous h2{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -625,7 +618,7 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    .aide h6{
+    .aide h2{
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -707,14 +700,13 @@
 
     .signup{
         order: 1;
-        
         align-items: flex-end;
     }
 
     .navlink{
         order: 2;
         width: 45%;
-        margin: 0px/;
+        margin: 0px;
         align-items: flex-start;
         border-bottom: #0065FC 3px solid;
 
@@ -724,7 +716,6 @@
 
     .barre {
         width: 330px;
-      
         display: flex;
         align-items: center;
         border: 1px solid #f2f2f2;
