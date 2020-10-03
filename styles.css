@@ -1,13 +1,12 @@
 @media only screen  and (max-width: 3000px) {
     
-
-
+    
     /*commun*/
 
     body {
         height:auto;
         width: 1440px;
-        margin: 10px 20px ;
+        margin: 10px 20px 10px 20px ;
         font-family: 'raleway', sans-serif;
         color: black;
        
@@ -17,9 +16,7 @@
         width: 100%;
         height:auto;
         display: flex ;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: center; 
+        align-items: center;
         
     }
 
@@ -46,8 +43,8 @@
     .logop {
         height: auto;
         width: 80px;
-        margin: 10px;
-        order: 0; 
+        margin-left: 10px;
+        
     }
 
     /*barre menu*/
@@ -55,19 +52,19 @@
     .menu{
         width: 100%;
         height: 50%;
+        
+    }
+
+    .menu ul{
         list-style-type: none;
-        margin: auto;  
-        display: flex;
-        flex-direction: row;     
+        margin: 0px;
     }
 
     .menu li{
         float: right;
         margin-right: 30px;
         color: #0065FC;
-        font-family: 'Raleway', sans-serif;
-        padding-top: 0px;
-        order: 1;
+        
     }
 
 
@@ -78,7 +75,11 @@
     }
 
     .signup{
-        order: 2;
+        text-decoration: none;
+        color: #0065FC;
+        margin-right: 30px;
+        
+       
         
     }
     /* Animation du menu */
@@ -643,22 +644,25 @@
 }
  
 
-@media only screen  and (max-width: 480px){
+@media only screen  and (max-width: 382px){
 
     body {
         height: auto;
         width: 100%;
         margin: 0px;
-        font-family: 'raleway', sans-serif;
-        color: black;
+       
        
     }
 
     header {
         width: 100%;
         height:auto;
-        display: flex ;
-        flex-flow:row wrap;    
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto auto;
+        grid-template-areas:"logo  sign"
+                            "navlink  navlink";
+        
     }
 
     .box2 {
@@ -674,40 +678,32 @@
         width: 100%;
         height: auto;
         margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+      
 
     }
 
     .logop{
-        width: 20%;
-        order: 0;
+        width:40%;
+        grid-area: logo;
+        
     }
     
     .menu{
         width: 100%;
         height: auto;
+        grid-area: navlink;
+        
+
         
     }
 
-    .onglet{
-        width: 100%;
-        margin: 0px;
-        display: flex;
-        flex-direction: row;
-    }
-
     .signup{
-        order: 1;
-        align-items: flex-end;
+        grid-area: sign;
+        
     }
 
-    .navlink{
-        order: 2;
-        width: 45%;
-        margin: 0px;
-        align-items: flex-start;
+    .navlinka{
+        width: 50%;
         border-bottom: #0065FC 3px solid;
 
     }
