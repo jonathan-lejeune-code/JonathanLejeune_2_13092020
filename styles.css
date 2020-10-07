@@ -4,9 +4,7 @@
     /*commun*/
 
     body {
-        height:auto;
-        width: 100%;
-        margin: 10px 20px 10px 20px ;
+        margin: 0px;
         font-family: 'raleway', sans-serif;
         color: black;
        
@@ -18,6 +16,11 @@
         display: flex ;
         align-items: center;
         
+    }
+
+    main{
+        max-width: 1440px;
+        height:auto;
     }
 
     .box2 {
@@ -66,15 +69,20 @@
     .menu li{
         float: right;
         margin-right: 30px;
-        color: #0065FC;
-        
     }
 
+    .navlinka{
+        color: #0065FC;
+    }
+
+    .navlinkb{
+        color: black;
+    }
 
     .menu a {
         cursor: pointer;
         text-decoration:none;
-        color: #0065FC;
+        
     }
 
     .signup{
@@ -578,6 +586,7 @@
     .propos{
         width: 33%;
         height: 200px;
+        margin-left: 10px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -656,11 +665,7 @@
 @media only screen  and (max-width: 768px){
 
     body {
-        width: 100%;
         height: 4550px;
-        margin: 0px;
-       
-       
     }
 
     header {
@@ -672,6 +677,10 @@
         grid-template-areas:"logo  sign"
                             "navlink  navlink";
         
+    }
+
+    main{
+        max-width: 375px;
     }
 
     .box2 {
