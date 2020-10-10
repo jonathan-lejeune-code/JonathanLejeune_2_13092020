@@ -691,7 +691,7 @@
         height: 30px;
     }
     
-    /*fenetre hébergement mobile*/
+    /*fenetre hébergement tablet*/
 
     #hébergement{
         width: 100%;
@@ -710,7 +710,7 @@
     .border {
         width:40%;
         height:auto;
-        margin: 20px 0px 20px 50px;
+        margin: 20px 0px 20px 70px;
         float: left;
         border-radius: 40px;
         display:flex;
@@ -729,6 +729,17 @@
         border-top-right-radius: 30px;
 
     }
+
+    .sblue{
+        width: 120px;
+        color: #0065FC;
+        margin: 0px 0px 0px 20px;
+        padding: 0px 0px 10px 0px ;
+        
+    }
+
+    
+
 
     /*fenetre populaire tablet*/
 
@@ -750,7 +761,7 @@
         background-color: white;
         width:33%;
         height: auto;
-        margin: 15px 30px 15px 30px;
+        margin: 25px 30px 15px 30px;
         border-radius: 30px;
         display: flex;
         flex-direction: row;
@@ -769,9 +780,27 @@
         border-bottom-left-radius: 0px;
     }
 
+    .border2 h3{
+        font-size: 14px;
+        width:130px;
+        height: 35px;
+        padding: 0px 5px 0px 10px;
+        margin: 5px 0px 0px 0px;
+        
+    }
+    
+    .border2 p{
+        font-size: 10px;
+        width: auto;
+        height: 15px;
+        padding: 0px 5px 0px 10px;
+        margin: 0px 0px 0px 0px;
+        
+    }
+
     .border2 .sblue{
-       
-        margin: 10px 0px 0px 0px;
+        padding: 0px 5px 10px 10px;
+        margin: 0px;
         
     }
        /*fenetre activité tablet*/
@@ -804,7 +833,7 @@
         background-color:white;
         width: 95%;
         height:auto;
-        margin: 30px 10px 10px 10px;
+        margin: 20px 10px 10px 10px;
         border-radius: 30px;
         box-shadow: black 10px 0px 22px -11px ;
         
@@ -823,7 +852,7 @@
     .imgb1{
         width: 100%;
         height: 400px;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 5px 0px;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
         }
@@ -831,7 +860,7 @@
         .imgb2{
         width: 100%;
         height: 400px;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 5px 0px;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
      }
@@ -841,8 +870,8 @@
         font-weight: bold;
         width:300px;
         height: 15px;
-        padding: 20px;
-        margin: 0px 0px 0px 40px;
+        padding: 0px 10px 10px 0px;
+        margin: 0px 0px 5px 40px;
        
     }
     
@@ -1006,7 +1035,7 @@
 
     #hébergement{
         width: 100%;
-        background-color: white;
+        background-color: #f2f2f2;
         height: auto;
         margin-top: 20px;
     }
@@ -1021,7 +1050,7 @@
         background-color:white;
         width:90%;
         height: 250px;
-        margin: 10px;
+        margin: 20px 20px 0px 20px;
         float: left;
         border-radius: 40px;
         display:flex;
@@ -1042,6 +1071,13 @@
         border-top-right-radius: 30px;
 
     }
+
+    .AP{
+        padding: 10px;
+      
+    }
+
+    
 
     /*fenetre populaire mobile*/
 
@@ -1070,13 +1106,16 @@
 
     
     .img2 {
-        margin: 7px 7px 7px 7px;
-        width: 100px;
+        padding:0px;
+        width: 160px;
         height:140px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
-        
-    
+    }
+
+    .border2 .sblue{
+        padding: 0px 5px 10px 0px;
+        margin: 0px;   
     }
        /*fenetre activité mobile*/
 
@@ -1123,7 +1162,7 @@
     .imgb1{
         width: 100%;
         height:auto;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 5px 0px;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
         }
@@ -1131,7 +1170,7 @@
         .imgb2{
         width: 100%;
         height: 230px;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 5px 0px;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
         }
