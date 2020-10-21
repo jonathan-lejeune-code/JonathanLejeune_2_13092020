@@ -101,7 +101,7 @@
     
     nav ul li a:hover {
     border-top: 2px solid #0065FC;
-    padding-top: 10px;    
+    padding-top: 20px;    
     }
 
     nav ul li a:active {
@@ -956,6 +956,7 @@
     }
     .menu li{
         margin: 0px 0px;
+        
     }
 
     .menu ul{
@@ -972,6 +973,7 @@
     .navlinka{
         width: 100%;
         padding: 0px 52px;
+        padding-bottom: 10px;
         border-bottom: #0065FC 3px solid;
 
     }
@@ -979,6 +981,7 @@
     .navlinkb{
         width: 100%;
         padding: 0px 52px;
+        padding-bottom: 10px;
         border-bottom: #f2f2f2 3px solid;
 
     }
