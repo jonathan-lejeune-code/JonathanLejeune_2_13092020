@@ -727,7 +727,7 @@
     .border {
         width:40%;
         height:auto;
-        margin: 20px 30px 30px 30px;
+        margin: 10px auto;
         float: left;
         border-radius: 40px;
         display:flex;
