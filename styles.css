@@ -280,6 +280,7 @@
         flex-direction:row;
         flex-wrap: wrap;
     }
+    
 
     .border p{
         font-family: 'Raleway', sans-serif;
@@ -303,7 +304,7 @@
         background-color:white;
         width:26%;
         height: 210px;
-        margin: 10px 30px 25px 30px;
+        margin: 0px 30px 25px 30px;
         float: left;
         border-radius: 20px;
         display:flex;
@@ -330,7 +331,7 @@
         font-weight: bold;
         width: 300px;
         height: 24px;
-        padding: 10px 0px 0px 40px;
+        padding: 40px 0px 0px 40px;
         margin: 0px 0px 0px 10px;
        
     }
