@@ -1,30 +1,30 @@
-@media only screen  and (max-width: 4000px) {
-    
     
     /*commun*/
 
     body {
-        margin: 0px;
+        max-width: 1440px;
+        margin:auto;
         font-family: 'raleway', sans-serif;
         color: black;
+        box-sizing: border-box;
        
     }
 
     header {
-        max-width: 1440px;
-        width: 100%;
+      
+        width: auto;
         height:auto;
         display: flex ;
         align-items: center;
-        margin:12px 20px 12px 20px;
+        margin:50px;
         
     }
 
-    main{
-        max-width: 1440px;
+    main{ 
         height:auto;
-        margin:0px 20px 0px 20px;
+        margin:50px;
     }
+    
 
     .box2 {
         display: flex;
@@ -60,7 +60,7 @@
     /*barre menu*/
 
     .menu{
-        width: 100%;
+        width: 90%;
         height: 50%;
         
     }
@@ -72,7 +72,7 @@
 
     .menu li{
         float: right;
-        margin-right: 60px;
+        margin-right: 40px;
     }
 
     .navlinka{
@@ -122,9 +122,10 @@
         margin: 10px;
     }
     
-    h2{
+    main p{
         font-family: 'Raleway', sans-serif;
         font-size: 14px;
+        width: auto;
         padding: 0px;
         margin: 10px 10px 15px 10px;
     }
@@ -252,6 +253,7 @@
          float: left;
          margin-left: 10px;
          margin-right: 10px;
+         margin-top: 4px;
          flex:0 1 auto;
  
      }
@@ -279,7 +281,7 @@
         flex-wrap: wrap;
     }
 
-    p{
+    .border p{
         font-family: 'Raleway', sans-serif;
         font-size: 13px;
         width: 150px ;
@@ -301,7 +303,7 @@
         background-color:white;
         width:25%;
         height: 210px;
-        margin: 10px 40px 25px 40px;
+        margin: 10px 30px 25px 30px;
         float: left;
         border-radius: 20px;
         display:flex;
@@ -499,7 +501,7 @@
     .imga1{
       width: 24%;
       height:90%;
-      margin: 7px;
+      margin: 5px;
      
     }
 
@@ -588,6 +590,7 @@
         font-family: 'Raleway', sans-serif;
         font-size: 12px;
         width: auto;
+        height: auto;
         margin: 5px 0px 0px 0px;
     }
 
@@ -637,21 +640,25 @@
         margin: 5px 0px 0px 0px;
     }
  
-}
 
-@media only screen and (min-width:427px) and (max-width: 1025px) {
+
+@media only screen and (min-width:646px) and (max-width: 1361px) {
     body {
+        max-width:1024px;
         height:auto;
+        margin: auto;
     }
 
     header {
-        width: auto;
+        width: 100%;
         height:auto;
+        margin: 20px;
         
     }
 
     main{
-        width: 100%;
+        width: auto;
+        margin: 20px;
     }
 
     .box2 {
@@ -720,14 +727,16 @@
     .border {
         width:40%;
         height:auto;
-        margin: 20px 0px 20px 80px;
+        margin: 20px 30px 30px 30px;
         float: left;
         border-radius: 40px;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
 
-
+    .AP{
+        margin-bottom: 20px;
     }
 
     .img1 {
@@ -756,8 +765,8 @@
 
     #populaire {
         background-color: #f2f2f2;
-        width: 100%;
-        height: 300px;
+        width:100%;
+        height: auto;
         flex-direction: row;
         flex-wrap: wrap;
         margin-right: 10px;
@@ -888,18 +897,18 @@
 }
  
 
-@media only screen  and (max-width: 426px){
+@media only screen and (max-width:645px){
 
     body {
-        max-width:375px;
+        max-width: 375px;
         height: 4550px;
-        margin: 0px;
+        margin: auto ;
     }
 
     header {
         width: 100%;
         height:auto;
-        margin: 0px;
+        margin:0px;
 
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -910,8 +919,8 @@
     }
 
     main{
-        width: 98%;
-        margin: 0px;
+        width: 100%;
+        margin:0px;
     }
 
     .box2 {
@@ -941,7 +950,7 @@
     .menu{
         width: 100%;
         height: auto;
-       justify-content: center;
+       justify-content:space-around;
         grid-area: navlink;
         
     }
@@ -972,6 +981,17 @@
         padding: 0px 53px;
         border-bottom: #f2f2f2 3px solid;
 
+    }
+
+    h1{width: 80%;
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    main p{
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 30px;
     }
 
     /*barre recherche mobile*/
@@ -1049,13 +1069,19 @@
         background: #0065FC;
     }
 
+    .info{
+        align-items: center;
+    }
+
 
     .info p{
-        width:80%;
+        width:100%;
+        font-size:18px;
         word-wrap: break-word;
     }
 
     .info i{
+        margin-top:5px;
         margin-bottom: 10px;
     }
     
@@ -1135,14 +1161,14 @@
     
     .img2 {
         padding:0px;
-        width: 130px;
+        width: 110px;
         height:120px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
 
     .border2 .sblue{
-        padding: 0px 5px 10px 10px;
+        padding: 40px 5px 0px 10px;
         margin: 0px;   
     }
        /*fenetre activité mobile*/
@@ -1225,10 +1251,11 @@
             flex-direction: column;
             align-items: center;
             width: 100%;
-            height: auto;
+            height:600px;
             margin: 20px 0px 0px 0px;
             padding: 0px;
             } 
+      
     
 
 }
