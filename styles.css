@@ -309,8 +309,7 @@
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
-
-
+        object-fit: cover;
     }
 
     .img1 {
@@ -399,7 +398,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-
+        object-fit: cover;
     }
 
     .img2 {
@@ -512,7 +511,7 @@
         margin: 10px 10px 10px 10px;
         border-radius: 30px;
         box-shadow: black 10px 0px 22px -11px ;
-        
+        object-fit: cover;
     }
 
     .bordera2{
@@ -522,7 +521,7 @@
         margin: 10px 10px 20px 10px;
         border-radius: 30px;
         box-shadow: black 10px 0px 22px -11px ;
-        
+        object-fit: cover;
     }
 
     .bordera h3,.bordera2 h3{
@@ -572,7 +571,7 @@
     /* block a propos footer*/
 
     .propos{
-        width: 33%;
+        width: 25%;
         height: 200px;
         margin-left: 10px;
         display: flex;
@@ -597,7 +596,7 @@
     /* block nos hébergements footer*/
 
     .nous{
-        width: 33%;
+        width: 25%;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -620,7 +619,7 @@
     /* block aide footer*/
 
     .aide{
-        width: 33%;
+        width: 25%;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -642,7 +641,7 @@
  
 
 
-@media only screen and (min-width:646px) and (max-width: 1361px) {
+@media only screen and (min-width:721px) and (max-width: 1361px) {
     body {
         max-width:1024px;
         height:auto;
@@ -897,7 +896,7 @@
 }
  
 
-@media only screen and (max-width:645px){
+@media only screen and (max-width:720px){
 
     body {
         max-width: 375px;
@@ -1093,7 +1092,13 @@
         height: auto;
         margin-top: 20px;
     }
-   
+    
+    #hébergement h2{
+        font-size: 18px;
+        margin: 0px;
+        padding: 10px 0px 0px 30px;
+
+    }
 
     .img_hebergements{
         display: flex;
@@ -1127,7 +1132,8 @@
     }
 
     .AP{
-        padding: 10px;
+        margin-left: 20px;
+        padding: 10px 0px 10px 5px ;
       
     }
 
@@ -1236,10 +1242,11 @@
         }
 
         #Activités h2{
-            width: 50%;
+            width: 80%;
             height: 20px;
+            font-size: 20px;
             padding: 0px;
-            margin: 20px 0px 0px 20px;
+            margin: 20px 0px 0px 30px;
         
     
         }
@@ -1251,7 +1258,7 @@
             flex-direction: column;
             align-items: center;
             width: 100%;
-            height:600px;
+            height:auto;
             margin: 20px 0px 0px 0px;
             padding: 0px;
             } 
