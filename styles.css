@@ -902,14 +902,15 @@
     body {
         max-width: 375px;
         height: 4550px;
-        margin:auto;
+        margin:auto 0;
+        box-sizing: border-box;
        
     }
 
     header {
-        width: 375px;
+        width:auto;
         height:auto;
-        margin:auto;
+        margin:auto ;
 
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -920,8 +921,8 @@
     }
 
     main{
-        width:375px;
-        margin:auto;
+        width:auto;
+        margin:auto ;
     }
 
     .box2 {
@@ -1050,9 +1051,10 @@
 
 
     .butfilter {
-        width: 96%;
+        width: 94%;
         height:auto;
-        margin-right: 0px;
+        margin-right: 5px;
+        margin-left: 5px;
         list-style-type: none;
         display: flex;
         flex-direction: column;
@@ -1151,7 +1153,6 @@
         background-color: #f2f2f2;
         width: 100%;
         height: auto;
-        margin-right: 0px;
         border-radius: 40px;
         
     }
@@ -1187,7 +1188,7 @@
        #Activités{
         width: 100%;
         height: auto;
-        margin-right: 10px;
+        margin-right: 0px;
         border-radius: 40px;
         display: flex;
         flex-direction:column;
@@ -1203,6 +1204,7 @@
     .imga1{
       width: 100%;
       height:auto;
+      margin-bottom:5px ;
      
     }
 
@@ -1210,7 +1212,7 @@
         background-color:white;
         width: 95%;
         height:auto;
-        margin: auto;
+        margin: auto 5px 10px;
         border-radius: 30px;
         box-shadow: black 10px 0px 22px -11px ;
     }
@@ -1219,7 +1221,7 @@
         background-color: white;
         width: 95%;
         height: auto;
-        margin: auto;
+        margin: auto 5px 15px;
         border-radius: 30px;
         box-shadow: black 10px 0px 22px -11px;
     }
