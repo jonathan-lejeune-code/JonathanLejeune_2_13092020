@@ -2,7 +2,7 @@
     /*commun*/
 
     body {
-        
+        max-width: 1440px;
         margin:auto;
         font-family: 'raleway', sans-serif;
         color: black;
