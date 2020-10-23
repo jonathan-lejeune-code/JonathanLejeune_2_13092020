@@ -2,7 +2,7 @@
     /*commun*/
 
     body {
-        max-width: 1440px;
+        
         margin:auto;
         font-family: 'raleway', sans-serif;
         color: black;
@@ -900,7 +900,7 @@
 @media only screen and (max-width:720px){
 
     body {
-        max-width: 375px;
+        
         height: 4550px;
         margin:auto;
         box-sizing: border-box;
@@ -913,10 +913,10 @@
         margin:auto ;
 
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: auto 1fr auto;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas:"logo  sign"
-                            "navlink  navlink";
+        grid-template-areas:"logo . sign"
+                            "navlink navlink navlink";
         
     }
 
@@ -950,14 +950,20 @@
     }
     
     .menu{
-        width: 99%;
+        width: 100%;
         height: auto;
-       justify-content:space-around;
+        margin:0px;
+        display: inline;
+        
+       justify-content:space-between;
         grid-area: navlink;
         
     }
     .menu li{
-        margin: 0px 0px;
+        width: 50%;
+        display: flex;
+        text-align: center;
+        margin: auto 0;
         
     }
 
@@ -974,16 +980,16 @@
 
     .navlinka{
         width: 100%;
-        padding: 0px 52px;
-        padding-bottom: 10px;
+        padding:32px;
+        padding-bottom: 20px;
         border-bottom: #0065FC 3px solid;
 
     }
 
     .navlinkb{
         width: 100%;
-        padding: 0px 52px;
-        padding-bottom: 10px;
+        padding: 32px;
+        padding-bottom: 20px;
         border-bottom: #f2f2f2 3px solid;
 
     }
