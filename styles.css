@@ -902,7 +902,7 @@
     body {
         max-width: 375px;
         height: 4550px;
-        margin:auto 0;
+        margin:auto;
         box-sizing: border-box;
        
     }
@@ -922,7 +922,7 @@
 
     main{
         width:auto;
-        margin:auto ;
+        margin:auto;
     }
 
     .box2 {
